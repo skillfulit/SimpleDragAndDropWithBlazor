@@ -145,6 +145,10 @@ app {
 .can-drop {
     border: 2px dashed green;
 }
+    .can-drop * {
+        pointer-events: none;
+    }
+
 
 .draggable {
     margin-bottom: 10px;
